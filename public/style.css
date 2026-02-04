@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tweet {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-left: 4px solid #2196F3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.tweet-content {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.tweet-buttons {
+  display: flex;
+  flex-direction: column; /* Button unter Input */
+  gap: 6px;
+}
+
+.tweet-content input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+button.save {
+  background-color: #4caf50;
+  color: white;
+}
